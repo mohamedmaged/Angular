@@ -1,18 +1,4 @@
-/*export class comm {
-    rating: number;
-    comment:string;
-    author: string;
-    date: string;
-}
-export class Dishm {
-    name: string;
-    image: string;
-    category: string;
-    label: string;
-    price : string;
-    description: string;
-    comments: Array<comm>;
-}*/
+import {Comment} from './comment'
 export class Dish {
     name: string;
     image: string;
@@ -20,4 +6,5 @@ export class Dish {
     label: string;
     price : string;
     description: string;
+    comments: Comment[];
 }
